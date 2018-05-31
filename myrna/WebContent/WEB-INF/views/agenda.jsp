@@ -41,7 +41,7 @@
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
-                                <span>Datos de </span>
+                                <span>Agenda</span>
                             </li>
                         </ul>
                     </div>
