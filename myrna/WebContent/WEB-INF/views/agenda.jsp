@@ -41,7 +41,11 @@
                                 <i class="fa fa-circle"></i>
                             </li>
                             <li>
+<<<<<<< HEAD
                                 <span>Datos de </span>
+=======
+                                <span>Agenda</span>
+>>>>>>> branch 'master' of https://github.com/santiluanco/myrna.git
                             </li>
                         </ul>
                     </div>
