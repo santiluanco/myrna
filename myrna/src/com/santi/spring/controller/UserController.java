@@ -29,9 +29,9 @@ public class UserController {
         return "inicio";
     }
 
-    @GetMapping("/plantilla")
+    @GetMapping("/agenda")
     public String plantillaJsp(Locale locale, Model model) {
-        return "plantilla";
+        return "agenda";
     }
 
     @GetMapping("/pacientes")

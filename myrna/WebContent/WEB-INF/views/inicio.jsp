@@ -104,7 +104,7 @@
 
                     <div class="row">
 								
-								<div class="col-md-6 col-sm-6">
+						<div class="col-md-12 col-sm-12">
                             <div class="portlet light ">
                                 <div class="portlet-title tabbable-line">
                                     <div class="caption">
@@ -420,15 +420,15 @@
                         </div>
 
 
-                        <div class="col-md-6 col-sm-6">
+                        <div class="col-md-12 col-sm-12">
                             <div class="portlet light ">
                                 <div class="portlet-title">
                                     <div class="caption caption-md">
                                         <i class="icon-bar-chart font-dark hide"></i>
                                         <span class="caption-subject font-dark bold uppercase">Doctores</span>
-                                        <span class="caption-helper">estadisticas...</span>
+                                        <span class="caption-helper">Estado</span>
                                     </div>
-                                    <div class="actions">
+                                    <!-- <div class="actions">
                                         <div class="btn-group btn-group-devided" data-toggle="buttons">
                                             <label class="btn btn-transparent green btn-outline btn-circle btn-sm active">
                                                 <input type="radio" name="options" class="toggle" id="option1">Hoy</label>
@@ -437,7 +437,7 @@
                                             <label class="btn btn-transparent green btn-outline btn-circle btn-sm">
                                                 <input type="radio" name="options" class="toggle" id="option2">Mes</label>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="portlet-body">
                                     <div class="row number-stats margin-bottom-30">
@@ -471,8 +471,8 @@
                                             <thead>
                                                 <tr class="uppercase">
                                                     <th colspan="2"> Doctor </th>
-                                                    <th> Facturado </th>
-                                                    <th> Pacientes </th>
+                                                    <th> Paciente </th>
+                                                    <th> Gabinete </th>
                                                     <th> Atendidos </th>
                                                     <th> Porcentaje </th>
                                                 </tr>
@@ -481,11 +481,11 @@
                                                 <td class="fit">
                                                     <img class="user-pic rounded" src="resources/assets/pages/media/users/avatar4.jpg"> </td>
                                                 <td>
-                                                    <a href="javascript:;" class="primary-link">Brain</a>
+                                                    <a href="javascript:;" class="primary-link">Ana Alba</a>
                                                 </td>
-                                                <td> $345 </td>
-                                                <td> 45 </td>
-                                                <td> 124 </td>
+                                                <td> Pedro </td>
+                                                <td> 1 </td>
+                                                <td> 12 </td>
                                                 <td>
                                                     <span class="bold theme-font">80%</span>
                                                 </td>
@@ -496,8 +496,8 @@
                                                 <td>
                                                     <a href="javascript:;" class="primary-link">Nick</a>
                                                 </td>
-                                                <td> $560 </td>
-                                                <td> 12 </td>
+                                                <td> Pablo </td>
+                                                <td> 2 </td>
                                                 <td> 24 </td>
                                                 <td>
                                                     <span class="bold theme-font">67%</span>
@@ -509,8 +509,8 @@
                                                 <td>
                                                     <a href="javascript:;" class="primary-link">Tim</a>
                                                 </td>
-                                                <td> $1,345 </td>
-                                                <td> 450 </td>
+                                                <td> Juan </td>
+                                                <td> 3 </td>
                                                 <td> 46 </td>
                                                 <td>
                                                     <span class="bold theme-font">98%</span>
@@ -522,8 +522,8 @@
                                                 <td>
                                                     <a href="javascript:;" class="primary-link">Tom</a>
                                                 </td>
-                                                <td> $645 </td>
-                                                <td> 50 </td>
+                                                <td> Eva </td>
+                                                <td> 4 </td>
                                                 <td> 89 </td>
                                                 <td>
                                                     <span class="bold theme-font">58%</span>
@@ -538,14 +538,9 @@
 
                     </div>
 
-
-
-
-
-               
-                	<!-- END CONTENT BODY -->
-
-
+				</div>
+               	<!-- END CONTENT BODY -->
+				
             </div>
             <!-- END CONTENT -->
 
@@ -570,23 +565,43 @@
         <script src="resources/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
         <script src="resources/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
         <script src="resources/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
-		  <script src="resources/assets/global/plugins/bootstrap-select/js/bootstrap-select.min.js" type="text/javascript"></script>
         <!-- END CORE PLUGINS -->
         <!-- BEGIN PAGE LEVEL PLUGINS -->
-        <script src="resources/assets/global/scripts/datatable.js" type="text/javascript"></script>
-        <script src="resources/assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
-        <script src="resources/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
-        <script src="resources/assets/pages/scripts/table-datatables-scroller.min.js" type="text/javascript"></script>
-        <script src="resources/assets/pages/scripts/datatables.select.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/moment.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/morris/raphael-min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/amcharts/serial.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/amcharts/pie.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/amcharts/radar.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/amcharts/themes/light.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/amcharts/themes/patterns.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/amcharts/themes/chalk.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/ammap/ammap.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/amcharts/amstockcharts/amstock.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/flot/jquery.flot.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/flot/jquery.flot.resize.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
+        <script src="resources/assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
         <!-- END PAGE LEVEL PLUGINS -->
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
         <script src="resources/assets/global/scripts/app.min.js" type="text/javascript"></script>
         <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        <script src="resources/assets/pages/scripts/dashboard.min.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL SCRIPTS -->
         <!-- BEGIN THEME LAYOUT SCRIPTS -->
         <script src="resources/assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
         <script src="resources/assets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
         <script src="resources/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
         <!-- END THEME LAYOUT SCRIPTS -->
+
 </body>
 
 

@@ -751,7 +751,7 @@
                             </div>
                         </div>
 
-						</div>	
+					</div>	
 
                 </div>
                 <!-- END CONTENT BODY -->
